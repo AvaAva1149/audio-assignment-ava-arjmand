@@ -1,0 +1,255 @@
+.btn{
+    background-color:#1A478C;
+     width:7em;
+    height:1.65em;
+    text-align:center;
+    margin:auto;
+    border-radius: 6px;
+    
+  }
+ .botton {
+    display:inline;
+
+   padding: 0.1em;
+    border-radius: 6px;
+    cursor: pointer;
+    padding-top:0.1em;
+    
+  }
+  .audio{
+    color:#8DA5C6;
+   text-align:center;
+    margin-top:0.75em;
+    font-size:1em;
+  
+  }
+  
+  
+  html, body {
+      background:white;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+  }
+  .st4:hover{
+   transform:rotate(4deg)
+   
+  }
+   
+  .audio-container {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      transform: translateY(-50%);
+  }
+  
+  .audiosvg-container {
+      position: relative;
+  }
+  
+  
+  
+  .audiosvg {
+      width: 40%;
+      max-width: 300px;
+      max-height: 50vh;
+      margin: auto;
+      display: block;
+  }
+  
+  #hover-circle .st4 {
+      transition: all 0.25s;
+  
+  }
+  
+   
+  #ripple-circle circle {
+      opacity: 0.5;
+  }
+  
+  .audio-overlay {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      background-color: #fff;
+      z-index: 100;
+      bottom: 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+      .js-audio{
+          border: none;
+      }
+  
+     .info-container p {
+          text-align: center;
+      }
+  
+      .video-container {
+          padding: 20px 20px 8vh 20px;
+      }
+  
+      .audio-container {
+          padding: 8vh 20px 20px 20px;
+      }
+  }
+  
+  @media screen and (max-width: 480px) {
+      .circle {
+          width: 4px;
+          height: 4px;
+          margin: 2px 4px;
+      }
+   
+  
+      #videosvg, .audiosvg {
+          width: 66%;
+      }
+  
+      .dialog__content {
+          width: 80% !important;
+          padding: 10px !important;
+      }
+  
+          .dialog__content button {
+              border-radius: 0 !important;
+              height: 30px !important;
+          }
+  
+  
+  }
+  .st0 {
+      fill: none;
+      stroke: #486CA3;
+      stroke-width: 5.6943;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10;
+  }
+  
+  .st1 {
+      fill: red;
+  }
+  
+  .st2 {
+      fill: none;
+      stroke: #1A478C;
+      stroke-width: 5.8983;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10;
+  }
+  
+  .st3 {
+      fill: #1A478C;
+  }
+  
+  .st4 {
+      fill: #486CA3;
+  }
+  
+  .st5 {
+      fill: none;
+      stroke: #1A478C;
+      stroke-width: 7.5924;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10;
+  }
+  
+  .st6 {
+      fill: #FFFFFF;
+  }
+  
+  .st7 {
+      fill: none;
+      stroke: #7691BA;
+      stroke-width: 13.2866;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10;
+  }
+  
+  .st8 {
+      fill: none;
+      stroke: #486CA3;
+      stroke-width: 4.4082;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10;
+  }
+  
+  .st9 {
+      fill: none;
+      stroke: #fff;
+      stroke-width: 0.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10;
+  }
+  
+  
+  .rotate-pause {
+  
+     animation-play-state:paused;
+  }
+  
+  .rotate {
+    animation: rotation 8s infinite linear;
+    transform-box: fill-box;
+    transform-origin: center;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  
+  
+  
+  .kl{
+      
+      transform: rotate(80deg) translate(-5px, -85px);
+       transform-box: fill-box;
+  }
+  
+  
+  
+  .nail {
+      
+    animation: nailMe 1s linear;
+    transform-box: fill-box;
+  transform-origin: bottom right;
+     animation-play-state:running;
+     
+  }
+  
+  @keyframes nailMe {
+    from {
+      transform: rotate(70deg);
+    }
+    to {
+      transform: rotate(10deg);
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
